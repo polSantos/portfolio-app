@@ -5,7 +5,7 @@ import { SocialIcon } from "react-social-icons";
 
 const Nav = () =>{
   return (
-    <nav className="Nav">s
+    <nav className="Nav">
       <a className="link" href="/">
         <div className="monogram">PS</div>
       </a>
