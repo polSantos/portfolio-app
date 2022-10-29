@@ -6,7 +6,7 @@ import './about.css';
 const About = () =>{
     return (
       <div className="wrapper">
-        <h1 class="title">Sobre mi</h1>
+        <h1 class="sectionTitle">Sobre mi</h1>
         <div className="heroImg">
           <img
             src={Photo}
