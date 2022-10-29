@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import './Nav.css';
+import './styles.css';
 import { SocialIcon } from "react-social-icons";
 
 const Nav = () =>{
   return (
-    <nav className="Nav">
+    <nav className="Nav">s
       <a className="link" href="/">
         <div className="monogram">PS</div>
       </a>
