@@ -4,6 +4,7 @@ import './App.css';
 import Nav from './components/Nav';
 import About from './pages/about';
 import ScrollButton from './components/ScrollButton'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
         </section>
       </main>
       <ScrollButton />
+      <Footer />
     </div>
   );
 }
