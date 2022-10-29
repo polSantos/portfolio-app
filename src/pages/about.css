@@ -9,6 +9,7 @@
 }
 .heroImg {
     object-fit: cover;
+    overflow: hidden;
     
 }
 
