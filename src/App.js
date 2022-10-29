@@ -12,14 +12,16 @@ function App() {
     <div className="App">
       <Nav />
       <header className="App-header">
-        <img
-          width="1600"
-          height="1131"
-          class="img"
-          src="https://wallpapercave.com/wp/wp3146629.jpg"
-          srcset="https://wallpapercave.com/wp/wp3146629.jpg 800w,https://wallpapercave.com/wp/wp3146629.jpg 1200w,https://wallpapercave.com/wp/wp3146629.jpg 1600w,https://wallpapercave.com/wp/wp3146629.jpg 2400w"
-          sizes="(max-width: 800px) 800px, (max-width: 1200px) 1200px, (max-width: 1600px) 1600px, (max-width: 2400px) 2400px, 1200px"
-        />
+        <div className="headerImg">
+          <img
+            width="1600"
+            height="1131"
+            className="img"
+            src="https://wallpapercave.com/wp/wp3146629.jpg"
+            srcset="https://wallpapercave.com/wp/wp3146629.jpg 800w,https://wallpapercave.com/wp/wp3146629.jpg 1200w,https://wallpapercave.com/wp/wp3146629.jpg 1600w,https://wallpapercave.com/wp/wp3146629.jpg 2400w"
+            sizes="(max-width: 800px) 800px, (max-width: 1200px) 1200px, (max-width: 1600px) 1600px, (max-width: 2400px) 2400px, 1200px"
+          />
+        </div>
         <div className="overlay">
           <h1 className="title">
             <small className="subtitle">Espacio personal de</small>Pol Santos
