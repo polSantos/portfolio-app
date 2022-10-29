@@ -1,0 +1,16 @@
+.btn {
+    position: fixed;
+        bottom: 10px;
+        right: 10px;
+        font-size: 3rem;
+        color: #90aab7;
+        border: transparent;
+        background-color: transparent;
+        justify-content: right;
+
+}
+
+.btn:hover{
+    color: grey;
+    cursor: pointer;
+}
