@@ -66,8 +66,12 @@
   .overlay {
     padding-left: 4rem;
   }
-}
+  
+}  
 
+.headerImg {
+  width: 100%;
+}
 .title {
   color: black;
   font-weight: 900;
