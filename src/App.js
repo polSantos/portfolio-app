@@ -5,13 +5,15 @@ import Nav from './components/Nav';
 import About from './pages/about';
 import ScrollButton from './components/ScrollButton'
 import Footer from './components/Footer'
+import IntroView from './pages/introView'
 
 function App() {
 
 
   return (
     <div className="App">
-      <Nav />
+      <IntroView />
+      {/* <Nav />
       <header className="App-header">
         <div className="headerImg">
         <img
@@ -36,7 +38,7 @@ function App() {
         </section>
       </main>
       <ScrollButton />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
