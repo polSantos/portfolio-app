@@ -5,13 +5,17 @@ import Nav from './components/Nav';
 import About from './pages/about';
 import ScrollButton from './components/ScrollButton'
 import Footer from './components/Footer'
+import construction from './construction.png';
 
 function App() {
 
 
   return (
     <div className="App">
-      <Nav />
+       <header className="App-header">
+      <h1 className="consTitle">UNDER CONSTRUCTION</h1>
+      <img className="consImage" src={construction} alt="Lego"></img>
+      {/* <Nav />
       <header className="App-header">
         <div className="headerImg">
         <img
@@ -36,7 +40,8 @@ function App() {
         </section>
       </main>
       <ScrollButton />
-      <Footer />
+      <Footer /> */}
+      </header>
     </div>
   );
 }
