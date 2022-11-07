@@ -42,6 +42,7 @@ function App() {
       <ScrollButton />
       <Footer /> */}
       </header>
+      <Footer></Footer>
     </div>
   );
 }
